@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import * as styles from "./style.css";
+import { themeClass } from "./style.css";
+import { Button } from "./components/button";
 </script>
 
 <template>
-  <div :class="styles.themeClass">
-    <button :class="styles.button">Submit</button>
+  <div :class="themeClass">
+    <Button />
   </div>
 </template>
